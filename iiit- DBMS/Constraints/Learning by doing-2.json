@@ -1,0 +1,65 @@
+[{
+	"title": "Learning by doing-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider two tables Dorm(name,address), Student(name,dormName,roommateName). Suppose some students live in single rooms (roommateName is NULL) and no dorms are empty. Which of the following referential integrity constraints does NOT hold?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Student.dormName to Dorm.name ",
+					"correct": "False"
+				},
+
+				{
+					"option": "Dorm.name to Student.dormName ",
+					"correct": "False"
+				},
+				{
+					"option": "Student.name to Student.roommateName",
+					"correct": "True"
+				},
+				{
+					"option": "Student.roommateName to Student.name",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider tables Dorm(name,address) and Student(name,dormName,roommateName) with referential integrity constraints: (1) Student.dormName to Dorm.name; (2) Dorm.name to Student.dormName; (3) Student.roommateName to Student.name. Which of the following modifications can NOT cause a referential integrity violation?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "insertion into Student ",
+					"correct": "False"
+				},
+
+				{
+					"option": "deletion from Student ",
+					"correct": "False"
+				},
+
+				{
+					"option": "update Student.roommateName",
+					"correct": "False"
+				},
+
+				{
+					"option": "All of them can cause violations",
+					"correct": "True"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

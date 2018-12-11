@@ -1,0 +1,19 @@
+[{
+	"title": "Query-7",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find names of all reviewers who doesn’t reviewed even one film."
+			},
+			{
+			"image": {
+				"imageSRC": "image-8.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

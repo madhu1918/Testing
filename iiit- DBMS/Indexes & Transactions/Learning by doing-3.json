@@ -1,0 +1,96 @@
+[{
+	"title": "Learning by doing-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider tables R(A) and S(B) and the following transaction T1: <b><br><br>T1: set transaction isolation level repeatable read;<br>select * from R;<br>select * from R;<br>select * from S;<br>Commit;</b><br>Suppose table R initially has one tuple with value A=3 and table S initially has one tuple with value B=6. Consider the following possible transactions T2, executed around the same time as T1. Which one of them can cause the two transactions to exhibit nonserializable behavior?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "T2: set transaction isolation level serializable; update R set A=4; update S set B=5 where B<5; commit; ",
+					"correct": "False"
+				},
+
+				{
+					"option": "T2: set transaction isolation level serializable; update S set B=5; delete from R; commit;",
+					"correct": "True"
+				},
+				{
+					"option": "T2: set transaction isolation level serializable; update S set B=7; commit;",
+					"correct": "False"
+				},
+				{
+					"option": "T2: set transaction isolation level serializable; delete from S; insert into S values (6); commit; ",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a relation R(x) containing integers. Suppose Alice runs a transaction that is a query: <br>select sum(x) from R;<br>Commit;<br><br>Betty's transaction is a sequence of inserts: <br><br><b>insert into R values (10);<br>insert into R values (20);<br>insert into R values (30);<br>commit;</b><br><br>Carol's transaction is a sequence of deletes: <br><br><b>delete from R where x=30;<br>delete from R where x=20;<br>commit;</b><br><br>Before any of these transactions execute, the sum of the integers in R is 1000, and none of the integers are 10, 20, or 30. If Alice's, Betty's, and Carol's transactions run at about the same time, and each runs under isolation level READ COMMITTED, which of the following sums could be produced by Alice's transaction?"
+			}],
+			"max_marks":1,
+			"options": [{
+					"option": "1020",
+					"correct": "False"
+				},
+
+				{
+					"option": "1010",
+					"correct": "True"
+				},
+
+				{
+					"option": "1030",
+					"correct": "False"
+				},
+
+				{
+					"option": "970",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a relation R(x) containing integers. Suppose Alice runs a transaction that is a query:<br><b>select sum(x) from R;<br>commit;</b><br><br>Betty's transaction is a sequence of inserts:<br><br><b>insert into R values (10);<br>insert into R values (20);<br>insert into R values (30);<br>commit;</b><br><br>Carol's transaction is a sequence of deletes:<br><br><b>delete from R where x=30;<br>delete from R where x=20;<br>commit;</b><br><br>Before any of these transactions execute, the sum of the integers in R is 1000, and none of these integers are 10, 20, or 30. Alice's, Betty's, and Carol's transactions run at about the same time. Which of the following sums could be returned by Alice's transaction if all three transactions run under isolation level READ UNCOMMITTED, but not if all three run under isolation level SERIALIZABLE?"
+			}],
+			"max_marks":1,
+			"options": [{
+					"option": "1020",
+					"correct": "False"
+				},
+
+				{
+					"option": "1040",
+					"correct": "True"
+				},
+
+				{
+					"option": "1000",
+					"correct": "False"
+				},
+
+				{
+					"option": "950",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

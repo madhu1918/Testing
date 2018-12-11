@@ -1,0 +1,88 @@
+[{
+	"title": "Learning by doing-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "To find the mean of a column which contains salaries of employes which aggregate function should be used?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "mean",
+					"correct": "False"
+				},
+
+				{
+					"option": "avg",
+					"correct": "True"
+				},
+
+				{
+					"option": "sum",
+					"correct": "False"
+				},
+
+				{
+					"option": "count",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "We can use nested Aggregate functions in the queries."
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "False"
+				},
+
+				{
+					"option": "False",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " Select count(*) from table_name<br>The above query will return"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "No.of columns present in the table;",
+					"correct": "False"
+				},
+
+				{
+					"option": "No.of rows present in the table",
+					"correct": "True"
+				},
+				{
+					"option": "1",
+					"correct": "False"
+				},
+
+				{
+					"option": "0",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

@@ -1,0 +1,137 @@
+[{
+	"title": "Assignment-2",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"Consider table Item(name,price) where name is a key, and the following two concurrent transactions.<br><br><b>T1:</b><br>Begin Transaction;<br>S1: Insert Into Item Values ('scissors',40);<br>S2: Update Item Set price = price + 30 Where name = 'pencil';<br>Commit;<br><b>T2:</b><br>Begin Transaction;<br>S3: Select Avg(price) As a1 From Item;<br>S4: Select Avg(price) As a2 From Item;<br>Commit;<br><br>Assume that the individual statements S1, S2, S3, and S4 always execute atomically. Suppose initially there are two tuples in Item: (pencil,20) and (pen,30). Each transaction runs once and commits. Transaction T1 always executes with isolation level Serializable."
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If transaction T2 executes with isolation level Serializable, what possible pairs of values a1 and a2 are returned by T2?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "(25,25) (40,40)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(25,25) (25,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,40) (40,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,30) (25,40) (30,30) (30,40) (40,40)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " If transaction T2 executes with isolation level Repeatable-Read, what possible pairs of values a1 and a2 are returned by T2?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "(25,25) (40,40)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(25,25) (25,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,40) (40,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,30) (25,40) (30,30) (30,40) (40,40)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " If transaction T2 executes with isolation level Read-Committed, what possible pairs of values a1 and a2 are returned by T2?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "(25,25) (40,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,40) (40,40)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(25,25) (25,30) (25,40) (30,30) (30,40) (40,40)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " If transaction T2 executes with isolation level Read-Uncommitted, what possible pairs of values a1 and a2 are returned by T2? "
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "(25,25) (40,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,40)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(25,25) (25,40) (40,40)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(25,25) (25,30) (25,40) (30,30) (30,40) (40,40)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

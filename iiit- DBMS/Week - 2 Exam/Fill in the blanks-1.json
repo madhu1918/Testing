@@ -1,0 +1,64 @@
+[{
+	"title": "Section - A",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "Note: Write your correct options with comma and space separated<br>Ex: a, b, d<br>c<br>a, c"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Match the following:<br>Which of the following values can be referred when the trigger runs on the given events."
+				},
+				{
+			"image": {
+				"imageSRC": "image-1.png",
+				"imageName": ""
+			}
+			},
+			{
+					"text":"a. a-1, b-2, c-3<br>b. a-3, b-2, c-1<br>c. a-1, b-1,c-1<br>d. a-2, b-3, c-1"
+			}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":" _______means that the data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.<br>a. Consistency<br>b.  Isolation<br>c. Atomicity<br>d. Durability"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Identify the characteristics of transactions<br>a. Atomicity<br>b. Durability<br>c. Isolation<br>d. All of the above"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Which of the following data structures is not used for implementing Indexes.<br>a. B trees<br>b. B+ trees<br>c. Heaps<br>d. Hash tables"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+			{
+				"text":"The statement that is executed automatically by the system as a side effect of the modification of the database is<br>a. trigger<br>b. Backup<br>c. Assertion<br>d. Recovery"
+			}
+		],
+			"max_marks": 0.5
+		}
+	]
+}]

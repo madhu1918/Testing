@@ -1,0 +1,18 @@
+[
+	{
+		"title":"Video on Transaction Introduction",
+		"activityType":"video",
+		"videoURL":"12-01-transactions-intro.mp4",
+		"videoResources" : "TransactionsIntro.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Transaction Introduction"
+			}
+		
+		]
+	}
+]

@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Multivalued Dependencies",
+		"activityType":"video",
+		"videoURL":"07-04-multivalued-dependencies.mp4",
+		"videoResources" : "MVDs4NF.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Multivalued Dependencies"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

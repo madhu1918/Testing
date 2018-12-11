@@ -1,0 +1,19 @@
+[{
+	"title": "Query-7",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "One new student (2000, jane, 9) joined in the high school please add her entry in highschooler."
+			},
+			{
+			"image": {
+				"imageSRC": "image-7.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

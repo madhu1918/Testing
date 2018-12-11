@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Triggers Demo - 1",
+		"activityType":"video",
+		"videoURL":"11-05-triggers-demo-part-1.mp4",
+		"videoResources" : "Triggers_Demo1.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Triggers Demo - 1"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Intro to SQL",
+		"activityType":"video",
+		"videoURL":"06-01-introduction-to-SQL.mp4.mp4",
+		"videoResources" : "SQLIntro.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Intro to SQL"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

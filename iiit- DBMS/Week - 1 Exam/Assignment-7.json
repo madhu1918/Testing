@@ -1,0 +1,19 @@
+[{
+	"title": "Query-7",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "How many persons ordered pizza's from Pizza Hut or chicago pizza<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "7.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

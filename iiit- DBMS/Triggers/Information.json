@@ -1,0 +1,12 @@
+[{
+	"title": "Information",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "As the videos discussed the triggers implementation in sqlite please use the following link for the syntaxes to create triggers in postgresql.<a href=\"https://www.postgresql.org/docs/9.1/sql-createtrigger.html\"> Click here</a>"
+		},
+		{
+			"text": "In today’s module you will be creating triggers on the social network database you created in week-1"
+		}
+	]
+}]

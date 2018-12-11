@@ -1,0 +1,19 @@
+[{
+	"title": "Query-5",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the titles of all movies not reviewed by Elizabeth Thomas."
+			},
+			{
+			"image": {
+				"imageSRC": "image-6.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

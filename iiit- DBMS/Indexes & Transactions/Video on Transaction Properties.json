@@ -1,0 +1,18 @@
+[
+	{
+		"title":"Video on Transaction Properties",
+		"activityType":"video",
+		"videoURL":"12-02-transactions-properties.mp4",
+		"videoResources" : "TransactionsProperties.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Transaction Properties"
+			}
+		
+		]
+	}
+]

@@ -1,0 +1,19 @@
+[{
+	"title": "Query-9",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "List movie titles and no of reviews given to each movie from highest-count to lowest-count. If two or more movies have the same no of reviews, list them in alphabetical order based on title."
+			},
+			{
+			"image": {
+				"imageSRC": "image-9.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

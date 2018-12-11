@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video on Constraints",
+		"activityType":"video",
+		"videoURL":"11-02-constraints",
+		"videoResources" : "Constraintsn.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Constraints"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

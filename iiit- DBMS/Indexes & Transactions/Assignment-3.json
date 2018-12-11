@@ -1,0 +1,137 @@
+[{
+	"title": "Assignment-3",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"Consider table Person(name,age) and the following transaction T:<br><br>Begin Transaction;<br>Q1: Select Avg(age) From Person;<br><read-only activity><br>Q2: Select Avg(age) From Person;<br>Commit;<br><br>Assume queries Q1 and Q2 always execute atomically. "
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose all other transactions in the system are declared as Serializable and Read-Only. What is the weakest isolation level needed for transaction T to ensure that queries Q1 and Q2 will always get the same result?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Read-Uncommitted",
+					"correct": "True"
+				},
+
+				{
+					"option": "Read-Committed",
+					"correct": "False"
+				},
+
+				{
+					"option": "Repeatable-Read",
+					"correct": "False"
+				},
+
+				{
+					"option": "Serializable",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " Suppose all other transactions in the system are declared as Serializable, and they only involve queries, updates, and deletions. What is the weakest isolation level needed for transaction T to ensure that queries Q1 and Q2 will always get the same result?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Read-Uncommitted",
+					"correct": "False"
+				},
+
+				{
+					"option": "Read-Committed",
+					"correct": "False"
+				},
+
+				{
+					"option": "Repeatable-Read",
+					"correct": "True"
+				},
+
+				{
+					"option": "Serializable",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " Suppose all other transactions in the system are declared as Serializable, and we know nothing else about them. What is the weakest isolation level needed for transaction T to ensure that queries Q1 and Q2 will always get the same result?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Read-Uncommitted",
+					"correct": "False"
+				},
+
+				{
+					"option": "Read-Committed",
+					"correct": "False"
+				},
+
+				{
+					"option": "Repeatable-Read",
+					"correct": "False"
+				},
+
+				{
+					"option": "Serializable",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Now consider the following variation, where the two queries are in two different transactions:<br><br>T1:</b><br>Begin Transaction;<br>Q1: Select Avg(age) From Person;<br><read-only activity><br>Commit;<br><br><b>T2:</b><br>Begin Transaction;<br>Q2: Select Avg(age) From Person;<br><read-only activity><br>Commit;<br><br>Suppose both transactions T1 and T2 execute with isolation level Serializable. Consider scenarios (1), (2), and (3) above for all other transactions in the system. For which of these scenarios, if any, are we guaranteed to always get the same result for Q1 and Q2?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Only 1",
+					"correct": "True"
+				},
+
+				{
+					"option": "2 and 3",
+					"correct": "False"
+				},
+
+				{
+					"option": "Only 3",
+					"correct": "False"
+				},
+
+				{
+					"option": "1 and 2 and 3",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

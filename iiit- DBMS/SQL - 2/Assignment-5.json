@@ -1,0 +1,19 @@
+[{
+	"title": "Query-5",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "List movie titles and average ratings, from highest-rated to lowest-rated. If two or more movies have the same average rating, list them in alphabetical order based on title"
+			},
+			{
+			"image": {
+				"imageSRC": "image-5.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

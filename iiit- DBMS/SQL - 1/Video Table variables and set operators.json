@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Table variables and set operators",
+		"activityType":"video",
+		"videoURL":"06-03-table variables set operators.mp4",
+		"videoResources" : "SQLTableVarsSetOps.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Table variables and set operators"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

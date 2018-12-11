@@ -1,0 +1,302 @@
+[{
+	"title": "MCQs-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Database Management system provides"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Efficient data",
+					"correct": "False"
+				},
+
+				{
+					"option": "Multi-user storage",
+					"correct": "False"
+				},
+
+				{
+					"option": "Multi-user access",
+					"correct": "False"
+				},
+
+				{
+					"option": "All the above",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "DML means"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Data Modification Language",
+					"correct": "False"
+				},
+
+				{
+					"option": "Data Manipulation Language",
+					"correct": "True"
+				},
+
+				{
+					"option": "Data Malfunctioning Language",
+					"correct": "False"
+				},
+
+				{
+					"option": "Data Multiple Language",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Tables in database are called as "
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Attributes",
+					"correct": "False"
+				},
+
+				{
+					"option": "Tuples",
+					"correct": "False"
+				},
+
+				{
+					"option": "Relations",
+					"correct": "True"
+				},
+
+				{
+					"optText": "Views",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Each row in a database is called as"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Attribute",
+					"correct": "False"
+				},
+
+				{
+					"option": "Tuple",
+					"correct": "True"
+				},
+
+				{
+					"option": "Relation",
+					"correct": "False"
+				},
+
+				{
+					"option": "View",
+					"correct": "False"
+				}
+
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Columns in a database is called as"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Attributes",
+					"correct": "True"
+				},
+
+				{
+					"option": "Tuples",
+					"correct": "False"
+				},
+
+				{
+					"option": "Relations",
+					"correct": "False"
+				},
+
+				{
+					"option": "Views",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Structural description of relations in database is called as"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Schema",
+					"correct": "True"
+				},
+
+				{
+					"option": "View",
+					"correct": "False"
+				},
+
+				{
+					"option": "Instance",
+					"correct": "False"
+				},
+
+				{
+					"option": "Variable",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Unknown or Undefined value in database is represent with"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "0",
+					"correct": "False"
+				},
+
+				{
+					"option": "\"\"",
+					"correct": "False"
+				},
+
+				{
+					"option": "NULL",
+					"correct": "True"
+				},
+
+				{
+					"option": "None of the above",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What will a query returns "
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Attributes",
+					"correct": "False"
+				},
+
+				{
+					"option": "Tuples",
+					"correct": "False"
+				},
+				{
+					"option": "Views",
+					"correct": "False"
+				},
+				{
+					"option": "Relations",
+					"correct": "True"
+				}
+
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which language is used to create relations"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "DML",
+					"correct": "False"
+				},
+
+				{
+					"option": "DDL",
+					"correct": "True"
+				},
+
+				{
+					"option": "DCL",
+					"correct": "False"
+				},
+
+				{
+					"option": "DQL",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+
+
+
+	]
+}]

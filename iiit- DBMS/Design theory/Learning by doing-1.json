@@ -1,0 +1,97 @@
+[{
+	"title": "Learning by doing-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a database containing information about courses taken by students. Students have a unique student ID and (possibly not unique) name; courses have a unique course number and (possibly not unique) title; students take a course in a given year and receive a grade. Which of the following schemas would you recommend? "
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Took(sID, name, courseNum, title, year, grade)",
+					"correct": "False"
+				},
+
+				{
+					"option": "Course(courseNum, title, year), Took(sID, courseNum, grade)",
+					"correct": "False"
+				},
+				{
+					"option": "Student(sID, name), Course(courseNum, title), Took(sID, courseNum, year, grade)",
+					"correct": "True"
+				},
+				{
+					"option": "Student(sID, name), Course(courseNum, title), Took(name, title, year, grade)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the relation Took(sID, name, courseNum, title). Students have a unique student ID and (possibly not unique) name; courses have a unique course number and (possibly not unique) title. Each tuple in the relation encodes the fact that the given student took the given course. What are all of the functional dependencies for relation Took?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "sID    ----->    courseNum",
+					"correct": "False"
+				},
+
+				{
+					"option": "sID    ----->  name, courseNum ----->  title",
+					"correct": "True"
+				},
+
+				{
+					"option": "Name   ------>  sID, title ------->  courseNum",
+					"correct": "False"
+				},
+
+				{
+					"option": "courseNum  ------>   sID ",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the relation StudentInfo(sID, dorm, courseNum). Students typically live in several dorms and take many courses during college. Suppose the data does not capture which dorm(s) a student lived in when taking a specific course, i.e., all dorm-course combinations are recorded for each student. What are all of the multivalued dependencies for relation StudentInfo?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "sID -----> dorm",
+					"correct": "False"
+				},
+
+				{
+					"option": "sID -----> courseNum",
+					"correct": "False"
+				},
+
+				{
+					"option": "sID -----> dorm, sID ------>  courseNum",
+					"correct": "True"
+				},
+
+				{
+					"option": "sID ----->  dorm, sID ------> courseNum, dorm -------> courseNum",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

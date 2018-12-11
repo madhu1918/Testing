@@ -1,0 +1,189 @@
+[{
+	"title": "Learning by doing-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the following SQL table declaration:<br><br>CREATE TABLE R (a INT, b INT, c INT, CHECK( [fill-in] ));<br><br>Currently R contains the tuples (1,4,14), (2,3,15), and (3,3,16). Which of the following tuple-based CHECK constraints will cause the following insertion to be rejected?<br><br>INSERT INTO R VALUES (4,4,9);<br><br>Note: When a tuple-based check is invoked for an insert and includes a subquery over the same table, the subquery is evaluated on the table including the inserted tuple."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "c <= ALL (SELECT b + c FROM R)",
+					"correct": "False"
+				},
+
+				{
+					"option": "a < (SELECT MAX(b) FROM R)",
+					"correct": "True"
+				},
+				{
+					"option": "b < (SELECT MIN(c) FROM R)",
+					"correct": "False"
+				},
+				{
+					"option": "b > (SELECT AVG(a) FROM R)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the following SQL table declaration: <br>CREATE TABLE Emps (id INT, ssNo INT, name CHAR(20), managerID INT);<br>We would like to extend the table declaration to enforce that each of id and ssNo is a key (by itself), and each value of managerID must be one of the values that appears in the id attribute of the same table. Which of the following is not a legal addition of SQL standard key and/or foreign-key constraints? Note: The addition does not have to achieve all of the stated goals; it only must result in legal SQL."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Add \"UNIQUE\" after the first INT, and add \"PRIMARY KEY\" after the second INT.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Add \"UNIQUE\" after each of the first two INT's.",
+					"correct": "False"
+				},
+
+				{
+					"option":" Add \"FOREIGN KEY (managerID) REFERENCES Emps(id)\" before the closing parenthesis.",
+					"correct": "True"
+				},
+
+				{
+					"option": "Add \"PRIMARY KEY\" after the first INT, and add \"REFERENCES Emps(id)\" before the closing parenthesis. ",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Here are SQL declarations for two tables S and T:<br>CREATE TABLE S(c INT PRIMARY KEY, d INT);<br>CREATE TABLE T(a INT PRIMARY KEY, b INT REFERENCES S(c));<br><br>Suppose S(c,d) contains four tuples: (2,10), (3,11), (4,12), (5,13). Suppose T(a,b) contains four tuples: (0,4), (1,5), (2,4), (3,5). As a result of the constraints in the table declarations, certain insertions, deletions, and/or updates on S and T are disallowed. Which of the following modifications will not violate any constraint?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Deleting (3,5) from T",
+					"correct": "True"
+				},
+
+				{
+					"option": "Inserting (4,10) into S",
+					"correct": "False"
+				},
+
+				{
+					"option":"Inserting (1,2) into T",
+					"correct": "False"
+				},
+
+				{
+					"option": "Inserting (5,6) into T ",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Here are SQL declarations for two tables S and T: <br><br>CREATE TABLE S(c INT PRIMARY KEY, d INT);<br>CREATE TABLE T(a INT PRIMARY KEY, b INT, CHECK(b IN (SELECT c FROM S)));<br><br>Suppose S(c,d) contains the four tuples: (2,10), (3,11), (4,12), (5,13). Suppose T(a,b) contains the four tuples: (0,4), (1,5), (2,4), (3,5). As a result of the constraints in the table declarations, certain insertions, deletions, and/or updates on S and T are disallowed. Which of the following modifications will not violate any constraint?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Updating (1,5) in T to be (1,10)",
+					"correct": "False"
+				},
+
+				{
+					"option": "Updating (2,4) in T to be (2,8)",
+					"correct": "False"
+				},
+
+				{
+					"option":"Inserting (4,13) into S",
+					"correct": "False"
+				},
+
+				{
+					"option": "Updating (0,4) in T to be (0,3)      ",
+					"correct": "True"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Here are SQL declarations for three tables R, S, and T: <br><br>CREATE TABLE R(e INT PRIMARY KEY, f INT);<br>CREATE TABLE S(c INT PRIMARY KEY, d INT REFERENCES R(e) ON DELETE CASCADE);<br>CREATE TABLE T(a INT PRIMARY KEY, b INT REFERENCES S(c) ON DELETE CASCADE);<br><br>Suppose R(e,f) contains tuples (1,0), (2,4), (3,5), (4,3), and (5,7). Suppose S(c,d) contains tuples (1,5), (2,2), (3,3), (4,5), and (5,4). Suppose T(a,b) contains tuples (0,2), (1,2), (2,3), (3,4), and (4,4). As a result of the referential integrity actions in the table declarations, certain deletions may cause additional deletions to be performed automatically. Which of the following deletions, after all integrity actions, leaves table T empty?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "delete from R where e>=2",
+					"correct": "True"
+				},
+
+				{
+					"option": "delete from R where e=5 or f=5",
+					"correct": "False"
+				},
+
+				{
+					"option":"delete from R where e*f>=10",
+					"correct": "False"
+				},
+
+				{
+					"option": "delete from R where e+f<=8",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Here are SQL declarations for three tables R, S, and T: <br><br>CREATE TABLE R(e INT PRIMARY KEY, f INT);<br>CREATE TABLE S(c INT PRIMARY KEY REFERENCES R(e) ON UPDATE CASCADE, d INT);<br>CREATE TABLE T(a INT PRIMARY KEY, b INT REFERENCES S(c) ON UPDATE CASCADE);<br><br>Suppose R(e,f) contains tuples (1,1), (3,4), (5,6), and (7,2). Suppose S(c,d) contains tuples (1,7), (3,2), (5,1) and (7, 5). Suppose T(a,b) contains tuples (1,1), (2,5), (3,5), and (4,3). As a result of the referential integrity actions in the table declarations, certain updates may cause additional updates to be performed automatically. Which of the following updates, after all integrity actions, leaves table T in a state such the sum of its b values is greater than 11 but less than 18?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "update R set e=e-1",
+					"correct": "False"
+				},
+
+				{
+					"option": "update R set e=e-3 where f>1",
+					"correct": "False"
+				},
+
+				{
+					"option":"update R set e=e+1 where f>=3",
+					"correct": "True"
+				},
+
+				{
+					"option": "update R set e=e+3 where e>=1",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

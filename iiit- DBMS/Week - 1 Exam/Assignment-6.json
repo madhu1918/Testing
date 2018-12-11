@@ -1,0 +1,19 @@
+[{
+	"title": "Query-6",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the count of pizza's served by Straw Hat<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "6.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

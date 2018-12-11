@@ -1,0 +1,200 @@
+[{
+	"title": "Assignment-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider relation R(A,B,C,D,E) with multivalued dependencies: <br>A --->> B, B --->> D<br>and no functional dependencies. Suppose we decompose R into 4th Normal Form. Depending on the order in which we deal with 4NF violations, we can get different final decompositions. Which one of the following relation schemas could be in the final 4NF decomposition?"
+			}
+
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "AE",
+					"correct": "False"
+				},
+
+				{
+					"option": "AB",
+					"correct": "True"
+				},
+				{
+					"option": "ABCDE",
+					"correct": "False"
+				},
+				{
+					"option": "ABD",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Let R(A,B,C,D,E) be a relation in Boyce-Codd Normal Form (BCNF). Suppose ABC is the only key for R. Which of the following functional dependencies is guaranteed to hold for R?"
+			}
+
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "BCDE ---> A",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABCE ---> D",
+					"correct": "True"
+				},
+
+				{
+					"option": "ACE ---> D",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABD ---> E ",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a relation R(A,B,C,D). For which of the following sets of FDs is R in Boyce-Codd Normal Form (BCNF)?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "AC ---> D, D ---> A, D ---> C, D ---> B",
+					"correct": "True"
+				},
+
+				{
+					"option": "A ---> C, B ---> A, A ---> D, AD ---> C",
+					"correct": "False"
+				},
+
+				{
+					"option": "C ---> B, BC ---> A, A ---> C, BD ---> A",
+					"correct": "False"
+				},
+
+				{
+					"option": "BC ---> A, AD ---> C, CD ---> B, BD ---> C",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider relation R(A,B,C,D) with functional dependencies: <br>A ---> B, C ---> D, AD ---> C, BC ---> A <br>Suppose we decompose R into Boyce-Codd Normal Form (BCNF). Which of the following schemas could not be in the result of the decomposition?"
+			}
+
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "AB",
+					"correct": "False"
+				},
+
+				{
+					"option": "CD",
+					"correct": "False"
+				},
+
+				{
+					"option": "ACD",
+					"correct": "True"
+				},
+
+				{
+					"option": "AC",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a relation R(A,B,C,D,E). For which of the following sets of FDs is R in Boyce-Codd Normal Form (BCNF)?"
+			}
+
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "ABE ---> C, BDE ---> A, BE ---> D, CDE ---> B",
+					"correct": "True"
+				},
+
+				{
+					"option": "AD ---> B, ABC ---> E, BD ---> A, B ---> A",
+					"correct": "False"
+				},
+
+				{
+					"option": "ACD ---> E, AE ---> C, CE ---> B, A ---> D",
+					"correct": "False"
+				},
+
+				{
+					"option": "BDE ---> A, AC ---> E, B ---> C, DE ---> A",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider relation R(A,B,C,D) with functional and multivalued dependencies:<br>A ---> B, C ---> D, B --->> C<br>Suppose we decompose R into 4th Normal Form. Depending on the order in which we deal with 4NF violations, we can get different final decompositions. Which one of the following relation schemas could be in the final 4NF decomposition? "
+			}
+
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "ABC",
+					"correct": "False"
+				},
+
+				{
+					"option": "ACD",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABCD",
+					"correct": "False"
+				},
+
+				{
+					"option": "AB",
+					"correct": "True"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

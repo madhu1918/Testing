@@ -1,0 +1,13 @@
+[{
+	"title": "Assignment-3",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":1,
+		"graded": true,
+		"questionText": [{
+				"text": "Write one or more triggers to maintain symmetry in friend relationships. Specifically, if (A,B) is deleted from Friend, then (B,A) should be deleted too. If (A,B) is inserted into Friend then (B,A) should be inserted too. Don't worry about updates to the Friend table. "
+			}
+		]
+	}]
+}]

@@ -1,0 +1,69 @@
+[{
+	"title": "Learning by doing-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "NULL value is different than a zero value in SQL"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "True"
+				},
+
+				{
+					"option": "False",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "A NULL value in a table is a value in a field that appears to be blank."
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "True"
+				},
+
+				{
+					"option": "False",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "You must use = NULL or = NOT NULL operators to check for a NULL value."
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "False"
+				},
+
+				{
+					"option": "False",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

@@ -1,0 +1,317 @@
+{
+    "activities": [],
+    "learningObjectives": [
+        "Learn Relational Databases",
+        "Learn Relational Algebra",
+        "Learn SQL",
+        "Learn Relational Design Overview",
+        "Learn Fundamental dependencies",
+        "Learn Normal Forms",
+        "Learn Transactions",
+        "Learn Indexes",
+        "Learn Constraints",
+        "Learn Triggers"
+
+    ],
+    "overview": [
+        "A database is an organized collection of data. A relational database, more restrictively, is a collection of schemas, tables, queries, reports, views, and other elements. Database designers typically organize the data to model aspects of reality in a way that supports processes requiring information, such as (for example) modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.",
+        "A database-management system (DBMS) is a computer-software application that interacts with end-users, other applications, and the database itself to capture and analyze data. A general-purpose DBMS allows the definition, creation, querying, update, and administration of databases.",
+        "A database is not generally portable across different DBMSs, but different DBMSs can interoperate by using standards such as SQL and ODBC or JDBC to allow a single application to work with more than one DBMS."
+    ],
+    "title": "DBMS",
+    "units": [{
+            "activities": [
+                "Video on Intro to databases",
+                "Video The Relational model",
+                "Video Querying Relational databases",
+                "MCQs-1",
+                "Video Relational Algebra-1",
+                "Video Relational Algebra-2",
+                "MCQs-2",
+                "MCQs-3",
+                "Installation Guide for postgresql"
+            ],
+            "learningObjectives": [
+                "Learn Relational model",
+                "Learn Querying Relational databases",
+                "Learn Select operator",
+                "Learn Cross product",
+                "Learn of Theta and Natural Join",
+                "Learn Rename operator"
+            ],
+            "overview": [
+                "A relational database is a digital database based on the relational model of data, as proposed by E. F. Codd in 1970. A software system used to maintain relational databases is a relational database management system (RDBMS). Virtually all relational database systems use SQL (Structured Query Language) for querying and maintaining the database.",
+                "The main application of relational algebra is providing a theoretical foundation for relational databases, particularly query languages for such databases, chief among which is SQL."
+            ],
+            "title": "Introduction and Relational Databases & Relational Algebra"
+        },
+        {
+            "activities": [
+                "Video Intro to SQL",
+                "Video Basic Select Statement",
+                "Learning by doing-1",
+                "Video Table variables and set operators",
+                "Learning by doing-2",
+                "Video Subqueries in where",
+                "Learning by doing-3",
+                "Information",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Assignment-5",
+                "Assignment-6",
+                "Assignment-7",
+                "Assignment-8",
+                "Assignment-9",
+                "Assignment-10"
+            ],
+            "learningObjectives": [
+                "Learn Basic select statements",
+                "Learn Table variables",
+                "Learn Set operators",
+                "Learn subqueries in where"
+            ],
+            "overview": [
+                " SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. It is particularly useful in handling structured data where there are relations between different entities/variables of the data."
+            ],
+            "title": "SQL - 1"
+        },
+        {
+            "activities": [
+                "Video on Subqueries in From and Select",
+                "Learning by doing-1",
+                "Video on Aggregation",
+                "Learning by doing-2",
+                "Video on Null values",
+                "Learning by doing-3",
+                "Information",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Assignment-5",
+                "Assignment-6",
+                "Assignment-7",
+                "Assignment-8",
+                "Assignment-9",
+                "Assignment-10"
+
+            ],
+            "learningObjectives": [
+                "Subqueries in from",
+                "Subqueries in where",
+                "Aggregation functions",
+                "Null values"
+            ],
+            "overview": [
+                "Originally based upon relational algebra and tuple relational calculus, SQL consists of many types of statements, which may be informally classed as sublanguages, commonly: a data query language (DQL), a data definition language (DDL), a data control language (DCL), and a data manipulation language (DML)"
+            ],
+            "title": "SQL - 2"
+        },
+        {
+            "activities": [
+                "Video Data modification statements",
+                "Learning by doing-1",
+                "Video Join operators",
+                "Learning by doing-2",
+                "Information",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Assignment-5",
+                "Assignment-6",
+                "Assignment-7",
+                "Assignment-8",
+                "Assignment-9",
+                "Assignment-10"
+            ],
+            "learningObjectives": [
+                "Insert",
+                "Delete",
+                "Update",
+                "Inner join",
+                "Left outer join",
+                "Right outer join",
+                "Full outer join"
+            ],
+            "overview": [
+                "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. It is particularly useful in handling structured data where there are relations between different entities/variables of the data."
+            ],
+            "title": "SQL - 3"
+        },
+        {
+            "activities": [
+                "Quiz",
+                "Hacker rank"
+            ],
+            "learningObjectives": [
+                "SQL"
+            ],
+            "overview": [
+                "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. It is particularly useful in handling structured data where there are relations between different entities/variables of the data"
+            ],
+            "title": "Code Camp(Quiz & Hackerrank)"
+        },
+        {
+            "activities": [
+                "Fill in the blanks-1",
+                "Fill in the blanks-2",
+                "Information",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Assignment-5",
+                "Assignment-6",
+                "Assignment-7",
+                "Assignment-8",
+                "Assignment-9",
+                "Assignment-10"
+            ],
+            "learningObjectives": [],
+            "overview": [
+                "Max Marks - 25",
+                "Time - 2 hrs 30 mins",
+                "<b>Instructions:</b>",
+                "Section A is of 5 marks. There are 10 fill in the blanks. Each blank carries 0.5 mark. Section-A is for 30 mins",
+                "Section B is of 20 marks.There are 10 fill in the blanks. Each blank carries 2 marks. Section-B is for 2 hours"
+            ],
+            "title": "Week - 1 Exam"
+        },
+        {
+            "activities": [
+                "Video on Indexes",
+                "Learning by doing-1",
+                "Video on Transaction Introduction",
+                "Video on Transaction Properties",
+                "Learning by doing-2",
+                "Video on Isolation levels",
+                "Learning by doing-3",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4"
+            ],
+            "learningObjectives": [
+                "Learn Indexes",
+                "Usage of Indexes",
+                "Learn Transaction Properties",
+                "Learn Isolation Levels"
+            ],
+            "overview": [
+                "A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure. Indexes are used to quickly locate data without having to search every row in a database table every time a database table is accessed. Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records. A database transaction, by definition, must be atomic, consistent, isolated and durable. Database practitioners often refer to these properties of database transactions using the acronym ACID."
+            ],
+            "title": "Indexes & Transactions"
+        },
+        {
+            "activities": [
+                "Video on Motivation and overview",
+                "Video on Constraints",
+                "Learning by doing-1",
+                "Video on Referential Integrity",
+                "Learning by doing-2",
+                "Learning by doing-3",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Assignment-5",
+                "Assignment-6",
+                "Assignment-7",
+                "Assignment-8",
+                "Assignment-9",
+                "Assignment-10"
+                
+            ],
+            "learningObjectives": [
+                "Learn Constraints",
+                "Learn Referential Integrity",
+                "Usage of Constraints"
+            ],
+            "overview": [
+                "Database constraints are constraints on a database that require relation to satisfy certain properties. Relations that satisfy all such constraints are legal relations."
+            ],
+            "title": "Constraints"
+        },
+        {
+            "activities": [
+                "Video Triggers Introduction",
+                "Video Triggers Demo - 1",
+                "Video Triggers Demo - 2",
+                "Learning by doing-1",
+                "Information",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Bonus Assignment-1",
+                "Bonus Assignment-2"
+            ],
+            "learningObjectives": [
+                "Learn Triggers",
+                "Usage of Triggers"
+            ],
+            "overview": [
+                " A database trigger is procedural code that is automatically executed in response to certain events on a particular table or view in a database. The trigger is mostly used for maintaining the integrity of the information on the database."
+            ],
+            "title": "Triggers"
+        },
+        {
+            "activities": [
+                "Video Relational Design Overview",
+                "Learning by doing-1",
+                "Video Functional dependencies",
+                "Learning by doing-2",
+                "Video Boyce-Codd Normal Form",
+                "Learning by doing-3",
+                "Video Multivalued Dependencies",
+                "Learning by doing-4",
+                "Video Shortcomings of BCNF and 4NF",
+                "Learning by doing-5",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3"
+            ],
+            "learningObjectives": [
+                "Learn Relational Design Overview",
+                "Learn Functional dependencies",
+                "Learn Boyce-Codd Normal Form",
+                "Learn Multivalued Dependencies",
+                "Learn Shortcomings of BCNF and 4NF"
+            ],
+            "overview": [
+                "In relational database theory, a functional dependency is a constraint between two sets of attributes in a relation from a database. In other words, functional dependency is a constraint that describes the relationship between attributes in a relation.",
+                "Boyce–Codd normal form is a normal form used in database normalization. It is a slightly stronger version of the third normal form.According to database theory, a multivalued dependency is a full constraint between two sets of attributes in a relation.",
+                "4NF is the next level of normalization after Boyce–Codd normal form (BCNF). Whereas the second, third, and Boyce–Codd normal forms are concerned with functional dependencies, 4NF is concerned with a more general type of dependency known as a multivalued dependency"
+            ],
+            "title": "Design theory"
+        },
+        {
+            "activities": [],
+            "learningObjectives": [],
+            "overview": [
+                "Holiday"
+            ],
+            "title": "Holiday"
+        },
+        {
+            "activities": [
+                "Fill in the blanks-1",
+                "Fill in the blanks-2",
+                "Assignment-1"
+            ],
+            "learningObjectives": [],
+            "overview": [
+                "Max Marks - 25",
+                "<b>Instructions:</b>",
+                "Section A is of 5 marks. There are 10 fill in the blanks. Each blank carries 0.5 mark. Section-A is for 30 mins ",
+                "Section B is of 20 marks."
+            ],
+            "title": "Week - 2 Exam"
+        }
+
+
+    ]
+}

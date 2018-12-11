@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video on Triggers Introduction",
+		"activityType":"video",
+		"videoURL":"11-04-triggers-intro.mp4",
+		"videoResources" : "TriggersIntro.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Triggers Introduction"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

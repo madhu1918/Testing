@@ -1,0 +1,19 @@
+[{
+	"title": "Query-8",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the average rating of the movie Gone with the Wind"
+			},
+			{
+			"image": {
+				"imageSRC": "image-8.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

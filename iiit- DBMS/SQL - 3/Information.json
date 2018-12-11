@@ -1,0 +1,30 @@
+[{
+	"title": "Information",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "The following is the schema for today's module"
+		},
+		{
+			"text": "Database: Social - Network Database<br>Highschooler ( ID, name, grade )  - There is a high school student with unique ID and a given first name in a certain grade."
+		},
+		{
+			"text": "Friend ( ID1, ID2 ) -  The student with ID1 is friends with the student with ID2. Friendship is mutual, so if (123, 456) is in the Friend table, so is (456, 123). "
+		},
+		{
+			"text": "Likes ( ID1, ID2 ) - The student with ID1 likes the student with ID2. Liking someone is not necessarily mutual, so if (123, 456) is in the Likes table, there is no guarantee that (456, 123) is also present."
+		},
+		{
+			"text": "In previous module we copy pasted all the commands in our command prompt. But today we will try different process to dump our DataBase. "
+		},
+		{
+			"text": "Postgresql provides Backup and restore through SQL dump. We can take backup our database and restore when required<br>So, today we will restore already backuped database for our module. Please download the given file below and follow the step by step process given below.<br><br>1. Connect to your postgresql and create a database with name social_network<br><br>2. Quit the database and type command pg_dump social_network > Above downloaded file path."
+		},
+		{
+			"text": "In the above way you can restore your database.<br>If you face any issues with restoring contact your mentor."
+		},
+		{
+			"attachment": ["social_network.txt"]
+		}
+	]
+}]

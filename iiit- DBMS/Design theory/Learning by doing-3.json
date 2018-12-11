@@ -1,0 +1,57 @@
+[{
+	"title": "Learning by doing-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "For the relation Apply(SSN,cName,state,date,major), suppose college names are unique and students may apply to each college only once, so we have two FDs: cName ---> state and SSN,cName --->  date,major. Is Apply in BCNF?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Yes",
+					"correct": "False"
+				},
+
+				{
+					"option": "No",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider relation Apply(SSN,cName,state,date,major) with FDs cName ---> state and SSN,cName ---> date,major. What schema would be produced by the BCNF decomposition algorithm?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Apply(SSN,cName,state,date,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "A1(cName,state), A2(SSN,cName,date,major)",
+					"correct": "True"
+				},
+
+				{
+					"option": "A1(cName,state), A2(SSN,date,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "A1(cName,state), A2(SSN,cName,date), A3(SSN,cName,major)",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

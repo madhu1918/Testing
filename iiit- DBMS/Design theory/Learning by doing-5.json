@@ -1,0 +1,14 @@
+[{
+	"title":" Learning by doing-5",
+	"activityType": "assignment",
+	"questions":[
+		{
+		"questionType":"filesubmission",
+		"questionText": [{
+				"text": "Consider the following Schema and reduce them to all normal forms.<br>Movie (mID, title, year, director, rid, name, stars, ratingDate)<br>mID - movie ID<br>Title - Title of the movie<br>Year- movie release year<br>Director- movie director<br>Rid - reviewer Id<br>Name - reviewer name<br>Stars- stars from the reviewer for the movie<br>ratingDate - Date of the movie rated<br><br><b>PLEASE SUBMIT THE FILE</b>"
+			}]
+		
+		}
+
+	]
+}]

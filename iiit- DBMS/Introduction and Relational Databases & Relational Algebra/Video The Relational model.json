@@ -1,0 +1,25 @@
+[
+	{
+		"title":"Video The Relational model",
+		"activityType":"video",
+		"videoURL":"02-01-relational-model.mp4 - YouTube.MP4",
+		"videoResources" : "RelationalModel.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video The Relational model"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+
+ 

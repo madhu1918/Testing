@@ -1,0 +1,19 @@
+[{
+	"title": "Query-1",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the names of all students who are friends with someone named Gabriel."
+			},
+			{
+			"image": {
+				"imageSRC": "image-1.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

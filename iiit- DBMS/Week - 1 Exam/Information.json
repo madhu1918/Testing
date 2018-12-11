@@ -1,0 +1,27 @@
+[{
+	"title": "Information",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "The following is the schema we are going to use.<br><br>"
+		},
+		{
+			"text": "Person(name, age, gender)  - Person contains name, age, gender<br>"
+		},
+		{
+			"text": "Frequents(name, pizzeria) - Frequents contains name of a person and pizzeria’s he visited<br>"
+		},
+		{
+			"text": "Eats(name, pizza) - Eats contains name of a person and types of pizza’s he ate.<br>"
+		},
+		{
+			"text": "Serves(pizzeria, pizza, price) - Serves contain pizzeria, and types of pizza’s that pizzeria serves and price of pizza.<br><br>"
+		},
+		{
+			"text": "Create a database named Pizza and dump the below given file in to your database."
+		},
+		{
+			"attachment": ["pizza.sql"]
+		}
+	]
+}]

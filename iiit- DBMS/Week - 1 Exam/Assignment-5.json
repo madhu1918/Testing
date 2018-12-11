@@ -1,0 +1,19 @@
+[{
+	"title": "Query-5",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "List all pizzeria's whose average price is less than the average price of all the pizzerias<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "5.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

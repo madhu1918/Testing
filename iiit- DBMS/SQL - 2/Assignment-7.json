@@ -1,0 +1,19 @@
+[{
+	"title": "Query-7",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Return the movie name with minimum stars in the database.(If multiple return those in alphabetical order)"
+			},
+			{
+			"image": {
+				"imageSRC": "image-7.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

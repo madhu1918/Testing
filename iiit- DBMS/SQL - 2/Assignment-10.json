@@ -1,0 +1,19 @@
+[{
+	"title": "Query-10",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": " Find all the movie titles which are released in between 1964 and 1984(both years exclusive)."
+			},
+			{
+			"image": {
+				"imageSRC": "image-10.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

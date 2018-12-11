@@ -1,0 +1,168 @@
+[{
+	"title": "Assignment-4",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"Consider table Worker(name,pay) where name is a key, and the following two concurrent transactions.<br><br><b>T1:</b><br><br>Begin Transaction<br>S1: update Worker set pay = 2*pay where name = 'Amy'<br.S2: update Worker set pay = 3*pay where name = 'Amy'<br>Commit<br><br><b>T2:</b><br>Begin Transaction<br>S3: update Worker set pay = pay-20 where name = 'Amy'<br>S4: update Worker set pay = pay-10 where name = 'Amy'<br>Commit<br><br>Assume that the individual statements S1, S2, S3, and S4 always execute atomically. Let Amy's pay be 50 before either transaction begins execution."
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose both transactions T1 and T2 execute to completion with isolation level Serializable. What are the possible values for Amy's final pay? "
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "120 270",
+					"correct": "True"
+				},
+
+				{
+					"option": "120 210 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "120 150 170 210 230 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "300",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose both transactions T1 and T2 execute to completion with isolation level Read-Committed. What are the possible values for Amy's final pay?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "120 270",
+					"correct": "True"
+				},
+
+				{
+					"option": "120 210 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "120 150 170 210 230 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "300",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " Suppose both transactions T1 and T2 execute with isolation level Serializable. Transaction T1 executes to completion, but transaction T2 rolls back after statement S3 and does not re-execute. What are the possible values for Amy's final pay? "
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "120 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "120 210 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "120 150 170 210 230 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "300",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose both transactions T1 and T2 execute to completion with isolation level Read-Uncommitted. What are the possible values for Amy's final pay?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "120 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "120 210 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "120 150 170 210 230 270",
+					"correct": "True"
+				},
+
+				{
+					"option": "300",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose transaction T1 executes with isolation level Read-Committed, transaction T2 executes with isolation level Read-Uncommitted, and both transactions execute to completion. What are the possible values for Amy's final pay?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "120 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "120 210 270",
+					"correct": "True"
+				},
+
+				{
+					"option": "120 150 170 210 230 270",
+					"correct": "False"
+				},
+
+				{
+					"option": "300",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+
+	]
+}]

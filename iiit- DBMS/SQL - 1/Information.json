@@ -1,0 +1,24 @@
+[{
+	"title": "Information",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "The following is the schema for today's module"
+		},
+		{
+			"text": "Movie-Rating Database<br>Movie ( mID, title, year, director ) <br>Description: There is a movie with ID number mID, a title, a release year, and a director. "
+		},
+		{
+			"text": "Reviewer ( rID, name ) <br>Description: The reviewer with ID number rID has a certain name."
+		},
+		{
+			"text": "Rating ( rID, mID, stars, ratingDate ) <br>Description: The reviewer rID gave the movie mID a number of stars rating (1-5) on a certain ratingDate. "
+		},
+		{
+			"text": "Create a database named movie-rating and dump the below given file in to your database.<br><b>Note: you need to submit your query for the upcoming assignments</b>"
+		},
+		{
+			"attachment": ["rating.sql"]
+		}
+	]
+}]

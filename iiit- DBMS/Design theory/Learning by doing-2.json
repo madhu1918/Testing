@@ -1,0 +1,65 @@
+[{
+	"title": "Learning by doing-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a relation R(A,B,C,D) with functional dependencies A,B ----->  C and C,D ------>  E. Suppose there are at most 3 different values for each of A, B, and D. What's the maximum number of different values for E?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "27",
+					"correct": "True"
+				},
+
+				{
+					"option": "9",
+					"correct": "False"
+				},
+				{
+					"option": "3",
+					"correct": "False"
+				},
+				{
+					"option": "81",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the relation R(A,B,C,D,E) and the set of functional dependencies S1 = {AB --->  C, AE --->  D, D ---> B}. Which of the following sets S2 of FDs does NOT follow from S1?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "S2 = {AD ---> C}",
+					"correct": "False"
+				},
+
+				{
+					"option": "S2 = {AD ---> C, AE ---> B}",
+					"correct": "False"
+				},
+
+				{
+					"option": "S2 = {ABC ---> D, D ---> B}",
+					"correct": "True"
+				},
+
+				{
+					"option": "S2 = {ADE ---> BC}",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

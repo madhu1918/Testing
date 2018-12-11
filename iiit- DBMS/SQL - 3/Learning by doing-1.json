@@ -1,0 +1,93 @@
+[{
+	"title": "Learning by doing-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "UPDATE Customers SET Name = 'Alfred Schmidt', City= 'Frankfurt' WHERE ID = 1;<br>In above query Customers is the table name and Name, City, ID are column names<br>The Syntax of the above query is correct"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "True"
+				},
+
+				{
+					"option": "False",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which of the following command is used to remove a tuple in SQL?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Truncate",
+					"correct": "False"
+				},
+
+				{
+					"option": "Remove",
+					"correct": "False"
+				},
+
+				{
+					"option": "Delete",
+					"correct": "True"
+				},
+
+				{
+					"option": "Drop",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "A sub query can not be placed in which of the following SQL clauses?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Where",
+					"correct": "False"
+				},
+
+				{
+					"option": "Select",
+					"correct": "False"
+				},
+				{
+					"option": "Having",
+					"correct": "False"
+				},
+
+				{
+					"option": "From",
+					"correct": "False"
+				},
+				{
+					"option": "None of the above",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

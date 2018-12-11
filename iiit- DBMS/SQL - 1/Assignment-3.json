@@ -1,0 +1,19 @@
+[{
+	"title": "Query-3",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find titles of all the movies that are rated at least once."
+			},
+			{
+			"image": {
+				"imageSRC": "image-4.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

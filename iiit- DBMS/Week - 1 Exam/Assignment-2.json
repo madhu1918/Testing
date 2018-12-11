@@ -1,0 +1,19 @@
+[{
+	"title": "Query-2",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find all pizzerias frequented by at least one person under the age of 18.<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "2.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

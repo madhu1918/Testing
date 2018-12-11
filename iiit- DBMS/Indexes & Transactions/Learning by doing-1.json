@@ -1,0 +1,65 @@
+[{
+	"title": "Learning by doing-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the following relational schema:<br><br><b>Course(courseName unique, department, instrID)<br>Instructor(instrID unique, office)<br>Student(studentID unique, major)<br>Enroll(studentID, courseName, unique (studentID,courseName))</b><br><br>Suppose there are five types of queries commonly asked on this schema:<ul><li>Given a course name, find the department offering that course.</li><li>List all studentIDs together with all of the departments they are taking courses in.</li><li>Given a studentID, find the names of all courses the student is enrolled in.</li><li>List the offices of instructors teaching at least one course</li><li>Given a major, return the studentIDs of students in that major.</li></ul><br><br>Which of the following indexes could NOT be useful in speeding up execution of one or more of the above queries?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Index on Enroll.courseName",
+					"correct": "False"
+				},
+
+				{
+					"option": "Index on Student.major",
+					"correct": "False"
+				},
+				{
+					"option": "Index on Course.courseName",
+					"correct": "False"
+				},
+				{
+					"option": "Index on Student.studentID",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a table storing temperature readings taken by sensors: <br>Temps(sensorID, time, temp)<br>Assume the pair of attributes [sensorID,time] is a key. Consider the following query: <br>select * from Temps where sensorID = 'sensor541' and time = '05:11:02';<br>Consider the following scenarios:<br>A - No index is present on any attribute of Temps<br>B - An index is present on attribute sensorID only<br>C - An index is present on attribute time only<br>D - Separate indexes are present on attributes sensorID and time<br>E - A multi-attribute index is present on (sensorID,time)<br>Suppose table Temps has 50 unique sensorIDs and each sensorID has exactly 20 readings. Furthermore there are exactly 10 readings for every unique time in Temps.<br>For each scenario A-E, determine the maximum number of tuples that might be accessed to answer the query, assuming one \"best\" index is used whenever possible. (Don't count the number of index accesses.) Which of the following combinations of values is correct?<br><br>Which of the following command is used to remove a tuple in SQL?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "A:1000, C:1000, D:10",
+					"correct": "False"
+				},
+
+				{
+					"option": "A:1000, B:20, D:10",
+					"correct": "True"
+				},
+
+				{
+					"option": "A:1000, B:20, E:10",
+					"correct": "False"
+				},
+
+				{
+					"option": "A:1000, D:20, E:10",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Subqueries in where",
+		"activityType":"video",
+		"videoURL":"06-04-subqueries-in-where.mp4",
+		"videoResources" : "SQLSubqueriesWhere.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Subqueries in where"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

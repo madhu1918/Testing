@@ -1,0 +1,19 @@
+[{
+	"title": "Query-4",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the pizzeria serving the cheapest pepperoni pizza. In the case of ties, return all of the cheapest-pepperoni pizzerias.<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "4.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

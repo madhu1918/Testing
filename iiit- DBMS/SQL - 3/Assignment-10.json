@@ -1,0 +1,19 @@
+[{
+	"title": "Query-10",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "It's time to move all the students to next grade. Increment grades of all the students by 1."
+			},
+			{
+			"image": {
+				"imageSRC": "image-10.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

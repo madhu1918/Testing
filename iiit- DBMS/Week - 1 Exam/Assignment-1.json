@@ -1,0 +1,19 @@
+[{
+	"title": "Query-1",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the names of all females who eat either mushroom or pepperoni pizza or both.<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "1.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

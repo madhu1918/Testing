@@ -1,0 +1,19 @@
+[{
+	"title": "Query-10",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Increase the price of all pizzas served by Pizza Hut by 10% of it's price<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "10.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

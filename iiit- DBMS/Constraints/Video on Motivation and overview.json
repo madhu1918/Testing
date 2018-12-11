@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video on Motivation and overview",
+		"activityType":"video",
+		"videoURL":"11-01-motivation-overview",
+		"videoResources" : "ConstraintsTriggersMotivation.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Motivation and overview"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

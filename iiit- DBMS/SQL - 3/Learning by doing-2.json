@@ -1,0 +1,69 @@
+[{
+	"title": "Learning by doing-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "You can drop OUTER keyword and just say LEFT JOIN or RIGHT JOIN or FULL JOIN."
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "True"
+				},
+
+				{
+					"option": "False",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Full outer join returns only matched rows from both the tables"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "False"
+				},
+
+				{
+					"option": "False",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Sql join can be performed on two columns of different data types"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "False"
+				},
+
+				{
+					"option": "False",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

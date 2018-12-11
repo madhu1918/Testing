@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video on Aggregation",
+		"activityType":"video",
+		"videoURL":"06-06-aggregation.mp4",
+		"videoResources" : "SQLAggregation.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Aggregation"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

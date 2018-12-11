@@ -1,0 +1,25 @@
+[
+	{
+		"title":"Video Relational Algebra-1",
+		"activityType":"video",
+		"videoURL":"05-01-relational-algebra-1.mp4 - YouTube.MP4",
+		"videoResources" : "RelationalAlgebra1.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Relational Algebra-1"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+
+ 

@@ -1,0 +1,170 @@
+[{
+	"title": "Learning by doing-1",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Answer the following questions based on the below given table</b>"
+	},
+		{
+			"image": {
+				"imageSRC": "image-1.png",
+				"imageName": ""
+			}
+		}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Query all columns (attributes) for every row in the above table."
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Select all from table city;",
+					"correct": "False"
+				},
+
+				{
+					"option": "Select * from table city;",
+					"correct": "False"
+				},
+
+				{
+					"option": "Select * from city;",
+					"correct": "True"
+				},
+
+				{
+					"option": "Select all from city;",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Query all districts in the above table"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Select * from table city;",
+					"correct": "False"
+				},
+
+				{
+					"option": "Select district from table city;",
+					"correct": "False"
+				},
+
+				{
+					"option": "Select ID, district from city;",
+					"correct": "False"
+				},
+
+				{
+					"option": "Select district from city;",
+					"correct": "True"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Query Name of city whose country code is 500032"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Select name from city where countrycode = 500032;",
+					"correct": "True"
+				},
+
+				{
+					"option": "Select name from city where country code = 500032;",
+					"correct": "False"
+				},
+
+				{
+					"option": "Select name from city where countrycode == 500032;",
+					"correct": "False"
+				},
+
+				{
+					"optText": "Select name from city where country code == 500032;",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Desc command is used to"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Sort the result in ascending order",
+					"correct": "False"
+				},
+
+				{
+					"option": "Sort the result in Descending order",
+					"correct": "True"
+				},
+
+				{
+					"option": "Rearrange the result in random order",
+					"correct": "False"
+				}
+
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "order by command is used to"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Sort the result in ascending order",
+					"correct": "True"
+				},
+
+				{
+					"option": "Sort the result in Descending order",
+					"correct": "False"
+				},
+
+				{
+					"option": "Rearrange the result in random order",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

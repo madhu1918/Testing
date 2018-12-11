@@ -1,0 +1,21 @@
+[{
+	"title": "Installation Guide for postgresql",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "<b>For windows users:</b><a href=\"http://www.postgresqltutorial.com/install-postgresql/\"> Click here</a>"
+		},
+		{
+			"text": "<b>For Ubuntu users:</b><a href=\"https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04\"> Click here</a>"
+		},
+		{
+			"text": "<b>For Mac Users:</b><a href=\"https://medium.com/@Umesh_Kafle/postgresql-and-postgis-installation-in-mac-os-87fa98a6814d\"> Click here</a>"
+		},
+		{
+			"text": "<br><br><b>Reference text book:</b>"
+		},
+		{
+			"attachment": ["elektroModulatorDva.pdf"]
+		}
+	]
+}]

@@ -1,0 +1,147 @@
+[{
+	"title": "Learning by doing-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Select A1, A2,........,An  from R1, R2,..........., Rn where condition.<br>In the above syntax R1, R2, ………, Rn are called as"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Conditional variables",
+					"correct": "False"
+				},
+
+				{
+					"option": "Table variables",
+					"correct": "True"
+				},
+
+				{
+					"option": "Set variables",
+					"correct": "False"
+				},
+
+				{
+					"option": "Variable operators",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which of the following is not called as set operators"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Union",
+					"correct": "False"
+				},
+
+				{
+					"option": "Intersect",
+					"correct": "True"
+				},
+
+				{
+					"option": "All",
+					"correct": "False"
+				},
+
+				{
+					"option": "Minus",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Results from Union operator contains duplicates from the two tables"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "False"
+				},
+
+				{
+					"option": "False",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Distinct keyword is used for"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "To get the unique results",
+					"correct": "True"
+				},
+
+				{
+					"option": "Remove all the duplicate entries from the table",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Operator to be used when we need to get the values from table-1 that are not present in table-2"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Union",
+					"correct": "False"
+				},
+
+				{
+					"option": "Intersect",
+					"correct": "False"
+				},
+
+				{
+					"option": "All",
+					"correct": "False"
+				},
+				{
+					"option": "Except",
+					"correct": "True"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

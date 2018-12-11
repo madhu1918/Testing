@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video on Isolation levels",
+		"activityType":"video",
+		"videoURL":"12-03-isolation-levels.mp4",
+		"videoResources" : "TransactionsIsolation.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Isolation levels"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

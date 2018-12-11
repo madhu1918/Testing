@@ -1,0 +1,19 @@
+[{
+	"title": "Query-8",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find details of all the movies where Chris Jackson reviewed. "
+			},
+			{
+			"image": {
+				"imageSRC": "image-9.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

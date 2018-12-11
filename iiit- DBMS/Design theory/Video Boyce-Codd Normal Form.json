@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Boyce-Codd Normal Form",
+		"activityType":"video",
+		"videoURL":"07-03-bcnf.mp4",
+		"videoResources" : "BCNF.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Boyce-Codd Normal Form"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

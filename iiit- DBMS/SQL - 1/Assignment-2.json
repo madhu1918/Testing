@@ -1,0 +1,19 @@
+[{
+	"title": "Query-2",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the year in which movie Star Wars released."
+			},
+			{
+			"image": {
+				"imageSRC": "image-3.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

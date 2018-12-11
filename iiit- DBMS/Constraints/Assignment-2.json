@@ -1,0 +1,18 @@
+[{
+	"title": "Constraints-2",
+	"activityType": "assignment",
+	"quizDescription": [
+		{
+		"text":"Modify the three CREATE TABLE statements in the movie-rating database to add the following ten constraints."
+	}
+	],
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":1,
+		"graded": true,
+		"questionText": [{
+				"text": "(title,year) is a key for Movie"
+			}
+		]
+	}]
+}]

@@ -1,0 +1,19 @@
+[{
+	"title": "Query-6",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the names of all reviewers who have contributed three or more ratings. (As an extra challenge, try writing the query without HAVING or without COUNT.)"
+			},
+			{
+			"image": {
+				"imageSRC": "image-6.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

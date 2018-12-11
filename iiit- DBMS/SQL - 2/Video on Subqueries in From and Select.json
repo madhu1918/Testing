@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video on Subqueries in From and Select",
+		"activityType":"video",
+		"videoURL":"06-05-subqueries-in-from-select.mp4",
+		"videoResources" : "SQLSubqueriesFromSelect.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Subqueries in From and Select"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

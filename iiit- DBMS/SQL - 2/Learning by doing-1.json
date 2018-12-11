@@ -1,0 +1,80 @@
+[{
+	"title": "Learning by doing-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "An SQL query can contain a HAVING clause only if it has a GROUP BY clause"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "False"
+				},
+
+				{
+					"option": "False",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Select ________ dept_name from instructor;<br>Here which of the following displays the unique values of the column ?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "All",
+					"correct": "False"
+				},
+
+				{
+					"option": "From",
+					"correct": "False"
+				},
+
+				{
+					"option": "Distinct",
+					"correct": "True"
+				},
+
+				{
+					"option": "Name",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": " Having condition is optional when we are using group by clause"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": "True"
+				},
+
+				{
+					"option": "False",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

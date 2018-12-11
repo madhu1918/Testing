@@ -1,0 +1,19 @@
+[{
+	"title": "Query-8",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "A new person is going to order his pizza so add him to the person table the details of the person is name: tes, age:24, gender: male<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "8.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

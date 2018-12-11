@@ -1,0 +1,19 @@
+[{
+	"title": "Query-3",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find all years that have a movie that received a rating of 4 or 5, and sort them in Descending order."
+			},
+			{
+			"image": {
+				"imageSRC": "image-3.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

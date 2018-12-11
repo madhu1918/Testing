@@ -1,0 +1,19 @@
+[{
+	"title": "Query-5",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find how many friend are there for Alexis"
+			},
+			{
+			"image": {
+				"imageSRC": "image-5.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

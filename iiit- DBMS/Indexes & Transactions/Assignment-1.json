@@ -1,0 +1,41 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"Consider two tables R(A,B) and S(C). Below are pairs of transactions. For each pair, decide whether it is possible for nonserializable behavior to be exhibited when executing the transactions concurrently, while respecting their specified isolation levels. Assume individual statements are executed atomically, and each transaction executes to completion.<br><br><b>Note: Answer Yes/No for the following blanks.</b>"
+	}
+	],
+	"questions": [{
+		"questionType": "fillintheblank",
+		"questionText": [
+			{
+				"text":"<b>Transaction 1:</b><br>Set Transaction Isolation Level Read Committed;<br>Select count(*) From R;<br>Select count(*) From S;<br>Commit;<br><br><b>Transaction 2:</b><br>Set Transaction Isolation Level Serializable;<br>Insert Into R Values (1,2);<br>Insert Into S Values (3);<br>Commit;"
+			}],
+		"max_marks": 1,
+		"answer": "Yes",
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	}, {
+		"questionType": "fillintheblank",
+		"questionText": [
+			{
+				"text":"<b>Transaction 1:</b><br>Set Transaction Isolation Level Read Committed;<br>Select count(*) From R;<br>Select count(*) From S;<br>Commit;<br><br><b>Transaction 2:</b><br>Set Transaction Isolation Level Serializable;<br>Insert Into R Values (1,2);<br>Insert Into R Values (3,4);<br>Commit;"
+			}],
+		"max_marks": 1,
+		"answer": "No",
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	}, {
+		"questionType": "fillintheblank",
+		"questionText": [
+			{
+				"text":"<b>Transaction 1:</b><br>Set Transaction Isolation Level Repeatable Read;<br>Select count(*) From R;<br>Select count(*) From S;<br>Select count(*) From R;<br>Commit;<br><br><b>Transaction 2:</b><br>Set Transaction Isolation Level Serializable;<br>Insert Into R Values (1,2);<br>Commit;"
+			}],
+		"max_marks": 1,
+		"answer": "Yes",
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	}
+]
+}]

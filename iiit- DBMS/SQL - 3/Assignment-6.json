@@ -1,0 +1,19 @@
+[{
+	"title": "Query-6",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the difference between the number of students in the school and the number of different names. "
+			},
+			{
+			"image": {
+				"imageSRC": "image-6.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

@@ -1,0 +1,66 @@
+[{
+	"title": "Learning by doing-4",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "For the relation Apply(SSN,cName,date,major) with functional dependency SSN,cName --->> date, what real-world constraint is captured by SSN ---> cName,date?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "A student can only apply to one major at each college.",
+					"correct": "False"
+				},
+
+				{
+					"option": "A student can apply to different majors at each college, but each major must be applied for on a different date.",
+					"correct": "False"
+				},
+				{
+					"option": "A student must apply to the same set of majors at all colleges.",
+					"correct": "True"
+				},
+
+				{
+					"option": "A student must apply to a different major at each college.",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider relation StudentInfo(sID, name, dorm, major) with functional dependency sID ---> name and multivalued dependency sID --->> dorm. What schema would be produced by the 4NF decomposition algorithm?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "StudentInfo(sID, name, dorm, major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "S1(sID,name), S2(sID,dorm,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "S1(sID,name,dorm), S2(sID,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "S1(sID,name), S2(sID,dorm), S3(sID,major)",
+					"correct": "True"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

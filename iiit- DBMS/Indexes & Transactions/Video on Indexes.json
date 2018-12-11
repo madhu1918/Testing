@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video on Indexes",
+		"activityType":"video",
+		"videoURL":"10-01-indexes.mp4",
+		"videoResources" : "Indexes.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video on Indexes"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

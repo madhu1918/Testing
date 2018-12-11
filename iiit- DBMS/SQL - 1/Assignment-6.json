@@ -1,0 +1,19 @@
+[{
+	"title": "Query-6",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find all the movie names which are rated with 4 or 5 stars."
+			},
+			{
+			"image": {
+				"imageSRC": "image-7.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

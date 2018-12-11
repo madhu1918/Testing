@@ -1,0 +1,19 @@
+[{
+	"title": "Query-8",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Delete students from high schooler who didn’t have any friends "
+			},
+			{
+			"image": {
+				"imageSRC": "image-8.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

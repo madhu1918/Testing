@@ -1,0 +1,19 @@
+[{
+	"title": "Query-2",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the name and grade of all students who are liked by more than one student."
+			},
+			{
+			"image": {
+				"imageSRC": "image-2.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Querying Relational databases",
+		"activityType":"video",
+		"videoURL":"02-02-querying-relational-databases.mp4 - YouTube.MP4",
+		"videoResources" : "RelationalQuerying.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Querying Relational databases"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+

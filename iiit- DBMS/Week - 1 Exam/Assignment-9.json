@@ -1,0 +1,19 @@
+[{
+	"title": "Query-9",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the name of the oldest person (or people) who eat mushroom pizza.<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "9.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

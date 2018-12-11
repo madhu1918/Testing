@@ -1,0 +1,246 @@
+[{
+	"title": "MCQs-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider a relation R(A) with r tuples, all unique within R, and a relation S(A) with s tuples, all unique within S. Let t represent the number of tuples in R minus S. Which of the following triples of values (r,s,t) is possible?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "(5, 3, 4)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(5, 10, 15)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(5, 10, 10)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(10, 5, 2)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "Suppose relation R(A,B)   and relation S(B,C,D) has the following tuples: "
+				},
+				{
+					"image": {
+						"imageSRC": "image-4.png",
+						"imageName": ""
+					}
+				},
+				{
+					"text": "Compute the theta-join of R and S with the condition R.A < S.C AND R.B < S.D. Which of the following tuples is in the result? Assume each tuple has schema (A, R.B, S.B, C, D)."
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "(5, 6, 4, 6, 9)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(5, 6, 4, 7, 9)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(1, 2, 2, 6, 8)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1, 2, 4, 4, 6)",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "Suppose relation R(A,B,C) has the following tuples: "
+				},
+				{
+					"image": {
+						"imageSRC": "image-5.png",
+						"imageName": ""
+					}
+				},
+				{
+					"text": "Compute the projection π C,B (R). Which of the following tuples is in the result?"
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "(5, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(2, 5)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(3, 5)",
+					"correct": "True"
+				},
+
+				{
+					"optText": "(6, 4)",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "Suppose relation R(A,B,C) and relation S(A,B,C) has the following tuples:"
+				},
+				{
+					"image": {
+						"imageSRC": "image-6.png",
+						"imageName": ""
+					}
+				},
+				{
+					"text": "Compute the union of R and S. Which of the following tuples DOES NOT appear in the result? "
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "(4, 2, 3)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(2, 2, 3)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(1, 2, 3)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(4, 5, 6)",
+					"correct": "False"
+				}
+
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "Suppose relation R(A,B,C) and relation S(A,B,C) has the following tuples:"
+				},
+				{
+					"image": {
+						"imageSRC": "image-7.png",
+						"imageName": ""
+					}
+				},
+				{
+					"text": "Compute the intersection of the relations R and S. Which of the following tuples is in the result?"
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "(1, 2, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(4, 5, 6)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(4, 2, 3)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1, 2, 4)",
+					"correct": "False"
+				}
+
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": " Suppose relation R(A,B,C) and relation S(A,B,C) has the following tuples:"
+				},
+				{
+					"image": {
+						"imageSRC": "image-8.png",
+						"imageName": ""
+					}
+				},
+				{
+					"text": "Compute (R - S) union (S - R), often called the \"symmetric difference\" of R and S. Which of the following tuples is in the result?"
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "(2, 2, 3)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(4, 5, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(4, 2, 3)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(1, 5, 6)",
+					"correct": "False"
+				}
+
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

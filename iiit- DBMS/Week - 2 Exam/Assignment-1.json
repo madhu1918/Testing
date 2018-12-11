@@ -1,0 +1,28 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":20,
+		"graded": true,
+		"questionText": [{
+				"text": "<b>Schema:</b><br>Student( studID, name, major ) // dimension table, studID is key<br>Instructor( instID, dept ); // dimension table, instID is key<br>Class( classID, univ, region, country ); // dimension table, classID is key<br>Took( studID, instID, classID, score ); // fact table, foreign key references to dimension tables"
+			},
+			{
+				"text": "<br>Note: follow your mentor instructions"
+			},
+			{
+				"text": "<br><br>Download: Data dump for database"
+			},
+			{
+				"attachment": ["classes.sql"]
+			},
+			{
+				"text": "<br><br>Download: Download the Question paper"
+			},
+			{
+				"attachment": ["Questionpaper.pdf"]
+			}
+		]
+	}]
+}]

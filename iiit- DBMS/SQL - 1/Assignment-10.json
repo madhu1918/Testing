@@ -1,0 +1,19 @@
+[{
+	"title": "Query-10",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find all the directors whose movies are rated 2 by reviewer Brittany Harris."
+			},
+			{
+			"image": {
+				"imageSRC": "image-11.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

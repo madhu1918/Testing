@@ -1,0 +1,65 @@
+[{
+	"title": "Learning by doing-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the following general assertion on tables Faculty(name,homeDept) and Teaches(prof,course,dept): create assertion A (not exists (select * from Faculty where name not in (select prof from Teaches where dept = homeDept))) Which of the following modifications can NOT cause the constraint to become violated?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "update to Faculty.homeDept",
+					"correct": "False"
+				},
+
+				{
+					"option": "deletion from Teaches",
+					"correct": "False"
+				},
+				{
+					"option": "update to Teaches.prof",
+					"correct": "False"
+				},
+				{
+					"option": "insertion into Teaches",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Consider the following general assertion on table Item(category,price): create assertion A (25 < any (select sum(price) from Item group by category)) Which of the following modifications can NOT cause the constraint to become violated? Choose the best (most reasonable) answer of the four choices. "
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "insertion into Item",
+					"correct": "True"
+				},
+
+				{
+					"option": "deletion from Item",
+					"correct": "False"
+				},
+
+				{
+					"option": "update to Item.category",
+					"correct": "False"
+				},
+
+				{
+					"option": "update to Item.price ",
+					"correct": "False"
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

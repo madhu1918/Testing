@@ -1,0 +1,19 @@
+[{
+	"title": "Query-9",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find the names of all reviewers who rated for the movie Gone with the Wind."
+			},
+			{
+			"image": {
+				"imageSRC": "image-10.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

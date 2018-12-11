@@ -1,0 +1,64 @@
+[{
+	"title": "Section - A",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "Note: Write your correct options with comma and space separated<ul><li>Ex1: a, b</li><li>Ex2: c</li><li>Ex3: a, c, d</li><li>Correct Options must me in ascending order</li><li>Some answers contains true or false, please write true or false in blank.</li></ul>"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":" Which language is used to create relations<br>a. DML<br>b. DDL<br>c. DCL<br>d. DQL"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Suppose relation R(A,B,C) and relation S(A,B,C) has the following tuples:"
+				},
+				{
+				"image": {
+					"imageSRC": "image-1.png",
+					"imageName": ""
+				}
+			},
+			{
+					"text":"Compute the union of R and S. Which of the following tuples DOES NOT appear in the result?<br>a. (2, 2, 3)<br>b. (1, 2, 3)<br>c.  (4, 5, 6)<br>d. (2, 5, 6)"
+			}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"When using distinct keyword on a column, it include NULL values that are present in that column  (true/false)."
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Not equals operator is represented in Postgresql as ____________<br>a. <><br>b. ~<br>c. !=<br>d. Not equals"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+			{
+				"text":"Structural description of relations in database is called as<br>a. Schema<br>b. Tuples<br>c. Attributes.<br>d. None of the above."
+			}
+		],
+			"max_marks": 0.5
+		}
+	]
+}]

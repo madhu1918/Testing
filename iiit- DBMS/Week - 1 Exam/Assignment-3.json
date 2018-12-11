@@ -1,0 +1,19 @@
+[{
+	"title": "Query-3",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find pizzeria, sorting(ascending) average prices of each pizzeria.<br><br>Expected output:"
+			},
+			{
+			"image": {
+				"imageSRC": "3.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

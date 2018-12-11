@@ -1,0 +1,64 @@
+[{
+	"title": "Section - A",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "Note: Write your correct options with comma and space separated<br>Ex: a, b, d<br>c<br>a, c"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"A function that may have partial functional dependencies is in _____ form?<br>a. 1NF<br>b. 2NF<br>c. 3NF<br>d. BCNF"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Consider the following relational schemes for a library database: <b><br>Book (Title, Author, Catalog_no, Publisher, Year, Price) <br>Collection (Title, Author, Catalog_no) <br>with in the following functional dependencies:<br>I. Title, Author --> Catalog_no<br>II. Catalog_no --> Title, Author, Publisher, Year<br>III. Publisher, Title, Year --> Price</b><br><br>a. Both Book and Collection are in BCNF<br>b. Both Book and Collection are in 3NF only<br>c. Book is in 2NF and Collection is in 3NF<br>d. Both Book and Collection are in 2NF only"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"The maximum number of superkeys for the relation schema R(E,F,G,H) with E as the key is ____<br>a. 4<br>b. 8<br>c. 16<br>d. 64"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":" In which of the following trigger actions will lead to recursion?<br>a. Triggers enforcing constraints<br>b. Trigger chaining<br>c. Self-triggering<br>d. Trigger probing"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Is this table has Multi Valued Dependency?"
+				},
+				{
+			"image": {
+				"imageSRC": "image-2.png",
+				"imageName": ""
+			}
+			},
+			{
+					"text":"a. Yes<br>b. No"
+			}
+		],
+			"max_marks": 0.5
+		}
+	]
+}]

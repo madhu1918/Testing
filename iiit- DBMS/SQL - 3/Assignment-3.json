@@ -1,0 +1,19 @@
+[{
+	"title": "Query-3",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":2,
+		"graded": true,
+		"questionText": [{
+				"text": "Find all students who do not appear in the Likes table (as a student who likes or is liked) and return their names and grades. Sort by grade descending, then by name ascending"
+			},
+			{
+			"image": {
+				"imageSRC": "image-3.png",
+				"imageName": ""
+			}
+		}
+		]
+	}]
+}]

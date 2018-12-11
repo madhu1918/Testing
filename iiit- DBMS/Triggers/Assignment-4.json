@@ -1,0 +1,13 @@
+[{
+	"title": "Assignment-4",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks":1,
+		"graded": true,
+		"questionText": [{
+				"text": "Write a trigger that automatically deletes students when they graduate, i.e., when their grade is updated to exceed 12."
+			}
+		]
+	}]
+}]

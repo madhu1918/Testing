@@ -1,0 +1,55 @@
+[{
+	"title": "Section - A",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "Note: Write your correct options with comma and space separated<ul><li>Ex1: a, b</li><li>Ex2: c</li><li>Ex3: a, c, d</li><li>Correct Options must me in ascending order</li><li>Some answers contains true or false, please write true or false in blank.</li></ul>"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Which of the following is an aggregate function?<br>a. Min<br>b. Create<br>c. except<br>d. Select<br>e. Absolute"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":" Which of the following is not true about SQL statements<br>a. SQL statements are not case sensitive.<br>b. SQL statements can be written on one or more lines.<br>c. Keywords cannot be split across lines<br>d. Clauses must be written on separate lines."
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Which of the following Syntaxes are wrong.<br>a. SELECT column-list FROM table_name [ORDER BY column1, column2, .. columnN] [WHERE condition] [ASC | DESC];<br>b. SELECT column-list FROM table_name [WHERE condition] [ORDER BY column1 [ASC | DESC], column2 [ASC | DESC], .. columnN[ASC | DESC]] ;<br>d. SELECT column-list FROM table_name [WHERE condition] [ASC | DESC] [ORDER BY column1, column2, .. columnN];"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Natural join requires the keywords using (or) on   (true/false)"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+			{
+				"text":"Full outer join is Union of:<br>a. Center join<br>b. left outer join<br>c. right outer join<br>d. All the above"
+			}
+		],
+			"max_marks": 0.5
+		}
+	]
+}]

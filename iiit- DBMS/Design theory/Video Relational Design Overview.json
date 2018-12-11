@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Video Relational Design Overview",
+		"activityType":"video",
+		"videoURL":"07-01-relational-design-overview.mp4",
+		"videoResources" : "RelDesignOverview.pdf"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the Video Relational Design Overview"
+			}
+		
+		]
+	}
+]
+
+
+
+
+
+
